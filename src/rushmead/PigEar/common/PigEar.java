@@ -1,5 +1,7 @@
 package rushmead.PigEar.common;
 
+import org.modstats.ModstatInfo;
+
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.Configuration;
@@ -13,6 +15,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
 import cpw.mods.fml.common.registry.LanguageRegistry;
 
 @Mod(modid = "pigear", name = "PigEar", version = "0.1")
+@ModstatInfo(prefix="pigear")
 @NetworkMod(clientSideRequired = true, serverSideRequired = false)
 public class PigEar {
     @Instance("pigear")
